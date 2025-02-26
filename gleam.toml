@@ -1,5 +1,6 @@
 name = "stemd"
 version = "1.0.0"
+target = "javascript"
 
 # Fill out these fields if you intend to generate HTML documentation or publish
 # your project to the Hex package manager.
@@ -14,5 +15,7 @@ version = "1.0.0"
 
 [dependencies]
 gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+lustre = ">= 4.6.4 and < 5.0.0"
 
 [dev-dependencies]
+lustre_dev_tools = ">= 1.6.5 and < 2.0.0"
